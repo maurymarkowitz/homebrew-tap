@@ -13,4 +13,9 @@ class onec < Formula
   test do
     system "#{bin}/onec", "--version"
   end
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 end
