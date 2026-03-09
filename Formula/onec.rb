@@ -1,4 +1,4 @@
-class onec < Formula
+class Onec < Formula
   desc "OpenNEC antenna simulator"
   homepage "https://github.com/maurymarkowitz/OpenNEC"
   url "https://github.com/maurymarkowitz/OpenNEC/releases/tag/v1.1.3.tar.gz"
