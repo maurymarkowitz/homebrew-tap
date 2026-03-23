@@ -1,4 +1,4 @@
-class onec < Formula
+class Onec < Formula
   desc "OpenNEC antenna simulator"
   homepage "https://github.com/maurymarkowitz/OpenNEC"
   url "https://api.github.com/repos/maurymarkowitz/OpenNEC/tarball/v1.2.0"
