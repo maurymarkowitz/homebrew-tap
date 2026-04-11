@@ -1,8 +1,8 @@
 class Retrobasic < Formula
   desc "RetroBASIC interpreter for classic BASIC programs"
   homepage "https://github.com/maurymarkowitz/RetroBASIC"
-  url "https://github.com/maurymarkowitz/RetroBASIC/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/maurymarkowitz/RetroBASIC/archive/refs/tags/v.3.0.0.tar.gz"
+  sha256 "3df416c4d03675a4d8c6babf664dddc3385fe7de416bbff6f9704f9bd986a4f4"
   license "GPL-2.0-or-later"
 
   depends_on "flex" => :build
