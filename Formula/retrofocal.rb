@@ -1,8 +1,8 @@
 class Retrofocal < Formula
   desc "RetroFOCAL interpreter for classic FOCAL programs"
   homepage "https://github.com/maurymarkowitz/RetroFOCAL"
-  url "https://github.com/maurymarkowitz/RetroFOCAL/archive/refs/tags/v1.1.4.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/maurymarkowitz/RetroFOCAL/archive/refs/tags/v.2.0.1.tar.gz"
+  sha256 "400beecaf27909c0206346a9227232c7c88c85462db76b7c4f07764854356620"
   license "GPL-2.0-or-later"
 
   depends_on "flex" => :build
