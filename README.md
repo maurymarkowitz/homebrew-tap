@@ -22,7 +22,13 @@ This repository provides Homebrew formulae for unofficial software packages.
 
     brew install maurymarkowitz/tap/retrobasic
 
+## Install opt65
+
+    brew install maurymarkowitz/tap/opt65
+
 ## Notes
+
+- `opt65` is available at version 1.1.0.
 
 - `retrofocal` is available at version 1.1.4.
 - `retrobasic` is available at version 2.1.2.
