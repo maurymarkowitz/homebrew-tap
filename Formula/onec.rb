@@ -1,8 +1,8 @@
 class Onec < Formula
   desc "OpenNEC antenna simulator"
   homepage "https://github.com/maurymarkowitz/OpenNEC"
-  url "https://github.com/maurymarkowitz/OpenNEC/archive/refs/tags/v.1.4.3.tar.gz"
-  sha256 "bcb197826d6f875a79fc2419f44569b6159ff9f7f57889286c69376faeb0f74d"
+  url "https://github.com/maurymarkowitz/OpenNEC/archive/refs/tags/v.2.0.0.tar.gz"
+  sha256 "57053bc0768926b342c63b5279acf94f59f21742df087bbe36a8264062bef512"
   license "MIT"
 
   def install
