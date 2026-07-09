@@ -10,10 +10,10 @@ class Onec < Formula
 
     bin.install "onec"
     lib.install "libonec.a"
-    man1.install "doc/onec.1"
+    man1.install "docs/onec.1"
 
     # Full documentation tree
-    doc.install Dir["doc/*"]
+    doc.install Dir["docs/*"]
 
     # Examples bundled with documentation
     doc.install "examples"
