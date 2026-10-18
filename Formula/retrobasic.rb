@@ -13,8 +13,11 @@ class Retrobasic < Formula
     system "make"
     bin.install "retrobasic"
 
-    # Install .desktop file for Linux desktop integration
-    share.install "retrobasic.desktop", "applications/retrobasic.desktop"
+    # Install .desktop file for Linux desktop integration only
+    if OS.linux? && File.exist?("src/retrobasic.desktop")
+      (share/"applications").mkpath
+      cp "src/retrobasic.desktop", share/"applications/retrobasic.desktop"
+    end
 
     pkgshare.install "README.md"
     pkgshare.install "bas"
